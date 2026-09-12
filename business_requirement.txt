@@ -1,0 +1,42 @@
+Requirements ----
+
+
+Requirement ID--Business Requirement--Transformation Rule--Output Field
+BR-01--Only successful sales should be included.--Keep records where order_status = Completed.--order_status
+BR-02--Cancelled and returned orders should not contribute to revenue.--Exclude Cancelled and Returned records.--order_status
+BR-03--Calculate gross line amount.--quantity * unit_price.--gross_amount
+BR-04--Calculate discount amount.--gross_amount * discount_pct / 100.--discount_amount
+BR-05--Calculate net sales.--gross_amount - discount_amount.--net_sales
+BR-06--Classify order value.--High >= 10000; Medium >= 5000 and <10000; Low <5000.--order_value_segment
+BR-07--Normalize payment methods.--Credit Card -> CARD; Debit Card -> CARD; UPI -> UPI; Cash -> CASH.--payment_group
+BR-08--Create customer region.--South: Telangana, Karnataka, Tamil Nadu, Kerala. West: Gujarat, Maharashtra. North: Delhi, Haryana, Punjab, Uttar Pradesh, Rajasthan. East: West Bengal.--region
+BR-09--Create delivery days.--If ship_date exists, ship_date - order_date; otherwise null.--delivery_days
+BR-10--Flag delayed deliveries.--delivery_days > 3 => Delayed; otherwise On Time; missing ship date => Not Shipped.--delivery_status
+BR-11--Standardize customer name.--Trim spaces and convert to title case.--customer_name
+BR-12--Standardize email.--Trim spaces and convert to lowercase.--customer_email
+BR-13--Create reporting month.--YYYY-MM derived from order_date.--reporting_month
+BR-14--Create final output key.--Concatenate region + '-' + product_category + '-' + reporting_month.--reporting_key
+BR-15--Output should contain only business-ready fields.--Do not include raw calculation helper columns unless needed for audit.--See Output_Schema
+
+Output Schema ----
+
+Column--Type--Description
+order_id--string--Unique order identifier
+order_date--date--Order date
+customer_name--string--Normalized customer name
+customer_email--string--Normalized lowercase email
+state--string--Customer state
+region--string--Business region
+product_category--string--Product category
+product--string--Product name
+quantity--integer--Units purchased
+unit_price--decimal--Unit price
+gross_amount--decimal--Quantity multiplied by unit price
+discount_amount--decimal--Discount value
+net_sales--decimal--Gross amount minus discount
+order_value_segment--string--High / Medium / Low
+payment_group--string--CARD / UPI / CASH
+delivery_days--integer--Days from order to shipment
+delivery_status--string--On Time / Delayed / Not Shipped
+reporting_month--string--YYYY-MM
+reporting_key--string--Region-category-month composite key

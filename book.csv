@@ -1,0 +1,21 @@
+order_id,order_date,customer_name,customer_email,state,product_category,product,quantity,unit_price,discount_pct,payment_method,order_status,ship_date
+ORD1001,2026-08-01,Aarav Sharma,aarav@example.com,Telangana,Electronics,Wireless Mouse,2,799,10,Credit Card,Completed,2026-08-03
+ORD1002,2026-08-02,Priya Nair,priya@example.com,Karnataka,Electronics,Keyboard,1,1499,0,UPI,Completed,2026-08-04
+ORD1003,2026-08-02,Rohan Mehta,rohan@example.com,Maharashtra,Home,Desk Lamp,3,999,5,UPI,Completed,2026-08-05
+ORD1004,2026-08-03,Ananya Rao,ananya@example.com,Telangana,Furniture,Office Chair,1,7499,15,Credit Card,Completed,2026-08-06
+ORD1005,2026-08-03,Vikram Singh,vikram@example.com,Delhi,Electronics,USB-C Hub,2,2299,10,Debit Card,Cancelled,
+ORD1006,2026-08-04,Ishita Gupta,ishita@example.com,Gujarat,Home,Water Bottle,5,599,0,Cash,Completed,2026-08-05
+ORD1007,2026-08-05,Kabir Khan,kabir@example.com,Telangana,Electronics,Monitor,2,12999,12,Credit Card,Completed,2026-08-08
+ORD1008,2026-08-06,Meera Iyer,meera@example.com,Tamil Nadu,Furniture,Bookshelf,1,5999,5,UPI,Completed,2026-08-09
+ORD1009,2026-08-06,Arjun Patel,arjun@example.com,Gujarat,Electronics,Webcam,1,3499,0,UPI,Pending,
+ORD1010,2026-08-07,Sneha Das,sneha@example.com,West Bengal,Home,Coffee Maker,1,4999,10,Credit Card,Completed,2026-08-10
+ORD1011,2026-08-08,Dev Malhotra,dev@example.com,Delhi,Electronics,Headphones,2,3999,20,Debit Card,Completed,2026-08-10
+ORD1012,2026-08-08,Nisha Verma,nisha@example.com,Uttar Pradesh,Furniture,Standing Desk,1,15999,8,UPI,Completed,2026-08-12
+ORD1013,2026-08-09,Aditya Joshi,aditya@example.com,Rajasthan,Home,Backpack,2,1999,5,Cash,Completed,2026-08-11
+ORD1014,2026-08-10,Tanya Kapoor,tanya@example.com,Telangana,Electronics,SSD 1TB,1,8499,10,Credit Card,Returned,2026-08-13
+ORD1015,2026-08-10,Rahul Menon,rahul@example.com,Kerala,Home,Air Fryer,1,6999,15,UPI,Completed,2026-08-13
+ORD1016,2026-08-11,Neha Bansal,neha@example.com,Punjab,Electronics,Power Bank,3,1799,5,UPI,Completed,2026-08-12
+ORD1017,2026-08-12,Sahil Kapoor,sahil@example.com,Haryana,Furniture,Study Table,1,8999,10,Credit Card,Completed,2026-08-15
+ORD1018,2026-08-12,Pooja Shah,pooja@example.com,Gujarat,Home,Table Fan,2,2799,0,Debit Card,Cancelled,
+ORD1019,2026-08-13,Karan Sethi,karan@example.com,Maharashtra,Electronics,Bluetooth Speaker,2,2999,5,UPI,Completed,2026-08-15
+ORD1020,2026-08-14,Riya Kapoor,riya@example.com,Karnataka,Home,Vacuum Cleaner,1,8999,12,Credit Card,Completed,2026-08-17

@@ -1,0 +1,17 @@
+order_id,order_date,customer_name,customer_email,state,region,product_category,product,quantity,unit_price,gross_amount,discount_amount,net_sales,order_value_segment,payment_group,delivery_days,delivery_status,reporting_month,reporting_key
+ORD1001,2026-08-01,Aarav Sharma,aarav@example.com,Telangana,South,Electronics,Wireless Mouse,2,799,1598,159.8,1438.2,Low,CARD,2,On Time,2026-08,South-Electronics-2026-08
+ORD1002,2026-08-02,Priya Nair,priya@example.com,Karnataka,South,Electronics,Keyboard,1,1499,1499,0.0,1499.0,Low,UPI,2,On Time,2026-08,South-Electronics-2026-08
+ORD1003,2026-08-02,Rohan Mehta,rohan@example.com,Maharashtra,West,Home,Desk Lamp,3,999,2997,149.85,2847.15,Low,UPI,3,On Time,2026-08,West-Home-2026-08
+ORD1004,2026-08-03,Ananya Rao,ananya@example.com,Telangana,South,Furniture,Office Chair,1,7499,7499,1124.85,6374.15,Medium,CARD,3,On Time,2026-08,South-Furniture-2026-08
+ORD1006,2026-08-04,Ishita Gupta,ishita@example.com,Gujarat,West,Home,Water Bottle,5,599,2995,0.0,2995.0,Low,CASH,1,On Time,2026-08,West-Home-2026-08
+ORD1007,2026-08-05,Kabir Khan,kabir@example.com,Telangana,South,Electronics,Monitor,2,12999,25998,3119.76,22878.239999999998,High,CARD,3,On Time,2026-08,South-Electronics-2026-08
+ORD1008,2026-08-06,Meera Iyer,meera@example.com,Tamil Nadu,South,Furniture,Bookshelf,1,5999,5999,299.95,5699.05,Medium,UPI,3,On Time,2026-08,South-Furniture-2026-08
+ORD1010,2026-08-07,Sneha Das,sneha@example.com,West Bengal,East,Home,Coffee Maker,1,4999,4999,499.9,4499.1,Low,CARD,3,On Time,2026-08,East-Home-2026-08
+ORD1011,2026-08-08,Dev Malhotra,dev@example.com,Delhi,North,Electronics,Headphones,2,3999,7998,1599.6,6398.4,Medium,CARD,2,On Time,2026-08,North-Electronics-2026-08
+ORD1012,2026-08-08,Nisha Verma,nisha@example.com,Uttar Pradesh,North,Furniture,Standing Desk,1,15999,15999,1279.92,14719.08,High,UPI,4,Delayed,2026-08,North-Furniture-2026-08
+ORD1013,2026-08-09,Aditya Joshi,aditya@example.com,Rajasthan,North,Home,Backpack,2,1999,3998,199.9,3798.1,Low,CASH,2,On Time,2026-08,North-Home-2026-08
+ORD1015,2026-08-10,Rahul Menon,rahul@example.com,Kerala,South,Home,Air Fryer,1,6999,6999,1049.85,5949.15,Medium,UPI,3,On Time,2026-08,South-Home-2026-08
+ORD1016,2026-08-11,Neha Bansal,neha@example.com,Punjab,North,Electronics,Power Bank,3,1799,5397,269.85,5127.15,Medium,UPI,1,On Time,2026-08,North-Electronics-2026-08
+ORD1017,2026-08-12,Sahil Kapoor,sahil@example.com,Haryana,North,Furniture,Study Table,1,8999,8999,899.9,8099.1,Medium,CARD,3,On Time,2026-08,North-Furniture-2026-08
+ORD1019,2026-08-13,Karan Sethi,karan@example.com,Maharashtra,West,Electronics,Bluetooth Speaker,2,2999,5998,299.9,5698.1,Medium,UPI,2,On Time,2026-08,West-Electronics-2026-08
+ORD1020,2026-08-14,Riya Kapoor,riya@example.com,Karnataka,South,Home,Vacuum Cleaner,1,8999,8999,1079.88,7919.12,Medium,CARD,3,On Time,2026-08,South-Home-2026-08
